@@ -14,6 +14,11 @@
     ./utils/toggleterm.nix
   ];
 
+  diagnostic.config = { 
+    virtual_lines = {
+      current_line = true; };
+  };
+
   colorschemes.catppuccin.enable = true;
 
   globals.mapleader = " ";
