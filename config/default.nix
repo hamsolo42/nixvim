@@ -12,6 +12,7 @@
     ./utils/telescope.nix
     ./utils/coq-nvim.nix
     ./utils/toggleterm.nix
+    ./utils/blankline.nix
   ];
 
   diagnostic.config = { 
