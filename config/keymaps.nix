@@ -1,5 +1,5 @@
 {
-keymaps = [
+  keymaps = [
     # Global
     # Default mode is "" which means normal-visual-op
     {
@@ -65,7 +65,7 @@ keymaps = [
       options.desc = "Format the current buffer";
     }
 
-    # Git    
+    # Git
     {
       mode = "n";
       key = "<leader>g";
@@ -157,7 +157,7 @@ keymaps = [
       options.desc = "Escape terminal mode";
     }
 
-    # Trouble 
+    # Trouble
     {
       mode = "n";
       key = "<leader>d";

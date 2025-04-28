@@ -1,5 +1,5 @@
 {
   plugins.coq-nvim = {
-   enable = true; 
+    enable = true;
   };
 }

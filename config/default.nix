@@ -1,6 +1,6 @@
 {
   # Import all your configuration modules here
-  imports = [ 
+  imports = [
     ./bufferline.nix
     ./cmp.nix
     ./lsp.nix
@@ -15,9 +15,10 @@
     ./utils/blankline.nix
   ];
 
-  diagnostic.config = { 
+  diagnostic.config = {
     virtual_lines = {
-      current_line = true; };
+      current_line = true;
+    };
   };
 
   colorschemes.catppuccin.enable = true;
@@ -26,8 +27,7 @@
   vimAlias = true;
   viAlias = true;
 
-  plugins = { 
+  plugins = {
     lualine.enable = true;
   };
-
 }
