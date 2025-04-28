@@ -16,6 +16,8 @@
   colorschemes.catppuccin.enable = true;
 
   globals.mapleader = " ";
+  vimAlias = true;
+  viAlias = true;
 
   plugins = { 
     lualine.enable = true;
