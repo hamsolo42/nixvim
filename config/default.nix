@@ -4,6 +4,7 @@
     ./bufferline.nix
     ./cmp.nix
     ./lsp.nix
+    ./keymaps.nix
     ./treesitter.nix
     ./git.nix
     ./options.nix
