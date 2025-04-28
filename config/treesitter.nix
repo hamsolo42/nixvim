@@ -2,7 +2,6 @@
   plugins = {
     treesitter = {
       enable = true;
-      gccPackage = null;
       nixGrammars = true;
       settings = {
         highlight.enable = true;
@@ -15,4 +14,5 @@
     };
     rainbow-delimiters.enable = true;
   };
+  dependencies.gcc.enable = true;
 }
