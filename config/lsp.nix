@@ -1,5 +1,4 @@
 {
-  plugins.lspconfig.enable = true;
   plugins.lsp = {
     enable = true;
     servers = {
