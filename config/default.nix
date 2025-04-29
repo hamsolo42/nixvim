@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [
     ./bufferline.nix
+    ./cmp.nix
     ./lsp.nix
     ./keymaps.nix
     ./treesitter.nix
@@ -11,7 +12,7 @@
     ./utils/telescope.nix
     ./utils/coq-nvim.nix
     ./utils/toggleterm.nix
-    ./blink.nix
+    ./utils/blankline.nix
   ];
 
   diagnostic.config = {
