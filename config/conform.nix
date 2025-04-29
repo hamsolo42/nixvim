@@ -1,5 +1,5 @@
 {
-  plugins.coq-nvim = {
+  plugins.conform-nvim = {
     enable = true;
   };
 }

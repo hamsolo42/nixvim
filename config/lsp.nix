@@ -1,4 +1,5 @@
 {
+  plugins.luasnip.enable = true;
   plugins.lsp = {
     enable = true;
     servers = {
