@@ -34,6 +34,15 @@
         indent = {
           enabled = true;
         };
+        picker = {
+          enabled = true;
+        };
+        lazygit = {
+          enabled = true;
+        };
+        toggle = {
+          enabled = true;
+        };
       };
     };
   };

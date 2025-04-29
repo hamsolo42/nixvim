@@ -4,6 +4,7 @@
     ./bufferline.nix
     ./lsp.nix
     ./friendly-snippets.nix
+    ./yazi.nix
     ./keymaps.nix
     ./treesitter.nix
     ./conform.nix

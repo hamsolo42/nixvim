@@ -1,5 +1,5 @@
 {
-  plugins.telescope = {
+  plugins.yazi = {
     enable = true;
   };
 }
