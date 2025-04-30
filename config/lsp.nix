@@ -1,12 +1,15 @@
+{pkgs,...}: 
 {
   plugins.luasnip.enable = true;
-  plugins.lspconfig.enable = true;
   plugins.lsp = {
     enable = true;
     servers = {
       ts_ls.enable = true;
       bashls.enable = true;
-      gh_actions_ls.enable = true;
+      gh_actions_ls = {
+enable = true;
+        package = pkgs.actionlint;
+      };
       eslint.enable = true;
       svelte.enable = true;
       dotls.enable = true;
