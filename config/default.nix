@@ -11,6 +11,7 @@
     ./git.nix
     ./options.nix
     ./utils/which-key.nix
+    ./utils/avante.nix
     ./utils/telescope.nix
     ./utils/blink.nix
     ./utils/toggleterm.nix
