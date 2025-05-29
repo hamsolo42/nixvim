@@ -1,4 +1,5 @@
 {
+  plugins.copilot-vim.enable = true;
   plugins.avante = {
     enable = true;
     settings = {
