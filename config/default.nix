@@ -23,6 +23,7 @@
       current_line = true;
     };
   };
+  nixpkgs.config.allowUnfree = true;
 
   colorschemes.catppuccin.enable = true;
 
