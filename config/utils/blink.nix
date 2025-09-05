@@ -6,9 +6,9 @@
 {
   extraPlugins = with pkgs.vimPlugins; [
     blink-cmp-avante
+    markdown-preview-nvim
   ];
   plugins = {
-    markdown-preview.enable = true;
     blink-cmp.enable = true;
     snacks = {
       enable = true;
