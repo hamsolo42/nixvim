@@ -6,6 +6,7 @@
     ./friendly-snippets.nix
     ./yazi.nix
     ./keymaps.nix
+    ./plantuml.nix
     ./treesitter.nix
     ./conform.nix
     ./git.nix
