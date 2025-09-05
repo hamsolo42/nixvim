@@ -8,6 +8,7 @@
     blink-cmp-avante
   ];
   plugins = {
+    markdown-preview.enable = true;
     blink-cmp.enable = true;
     snacks = {
       enable = true;
