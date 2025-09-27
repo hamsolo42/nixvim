@@ -7,14 +7,14 @@
     enable = true;
     settings = {
       provider = "ollama";
-      ollama = {
-        endpoint = "http://localhost:11434";
-        model = "qwen3";
-      };
-      vendors = {
-        dolphin3 = {
-          __inherited_from = "ollama";
-          model = "dolphin3";
+      providers = {
+        ollama = {
+         endpoint = "http://localhost:11434";
+         model = "qwen3";
+          #         is_env_set = '' function()
+          #  return true
+          #  end
+          #  '';
         };
       };
     };
